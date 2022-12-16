@@ -10,12 +10,37 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+
+
+}
+
+.title{
+
+  margin-top: 5%;
+  padding: 3% 2%;
+  display: inline-block; 
+  background-color: rgb(179, 220, 215);
+  border-radius:10px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.2);
+  min-height: 30px;
+  max-height: 30px;
+  width: 440px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(68, 113, 113);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
 
 }
 
 .mid{
   
-  margin-top: 10%;
+  margin-top: 1%;
   padding: 2% 2%;
   display: inline-block; 
   background-color: rgb(179, 220, 215);

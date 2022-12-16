@@ -58,6 +58,10 @@ function App() {
   return (
     <>
       <div className='Container'>
+        <div className='title'>
+          <p>Contacts</p>
+
+        </div>
         <div className="mid">
           <div>
             <input className='inputBar' value={searchTerm} onChange={handleChange} />
