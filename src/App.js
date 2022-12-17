@@ -58,6 +58,7 @@ function App() {
   return (
     <>
       <div className='Container'>
+
         <div className='title'>
           <p>Contacts</p>
         </div>
@@ -66,14 +67,16 @@ function App() {
 
           <div className='searchBarWhole'>
             <input className='inputBar' value={searchTerm} onChange={handleChange} />
-            <p style={{ float: "right", fontSize: "40px" }}>🔍</p>
+            <p style={{ fontSize: "40px" }}>🔍</p>
           </div>
+
           <div className='scoller'>
             <GetItems />
           </div>
 
 
         </div>
+
       </div>
     </>
   );
