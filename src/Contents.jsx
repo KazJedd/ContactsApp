@@ -20,7 +20,7 @@ function Contents({ person }) {
       );
     } else {
       // else if hide is true the text is hidden which helps with a fluid animation
-      return <p></p>;
+      return <p> </p>;
     }
   }
 
@@ -69,7 +69,7 @@ function Contents({ person }) {
           setCurrentStyle("item-expanded");
           setHide(true);
           // small delay before the text is shown to help with fluid animation
-          setTimeout(() => setFullView(true), 200);
+          setTimeout(() => setFullView(true), 100);
         }
       }}
     >
