@@ -20,6 +20,7 @@ p{
   min-height: 30px;
   max-height: 30px;
   width: 70vw;
+  max-width: 700px;
   font-size: 50px;
   font-weight: bolder;
   color: rgb(68, 113, 113);
@@ -40,6 +41,7 @@ p{
   box-shadow: 0 6px 6px rgba(0,0,0,0.2);
   width: 70vw;
   height: 60vh;
+  max-width: 700px;
 }
 
 @media screen and (max-width: 800px){
